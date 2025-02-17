@@ -22,7 +22,7 @@ def generate_dummy_prediction(row):
     return "Hit" if row["feature1"] > 50 else "Flop"
 
 # File path configuration
-FILE_PATH = r"F:\EPITA - M.Sc CS\S2 - DSA\DSP\FastAPI_Song_Prediction\songs_normalize.csv"  # <-- PREDEFINED FILE PATH
+FILE_PATH = r"F:\EPITA - M.Sc CS\S2 - DSA\DSP\FastAPI_Song_Prediction\Music-Prediction-App\songs_normalize.csv"  # <-- PREDEFINED FILE PATH
 
 @app.get("/process-local-file/")
 async def process_local_file(db: Session = Depends(get_db)):
