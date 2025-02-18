@@ -87,4 +87,4 @@ try:
         st.error(f"Error: {response.status_code} - {response.text}")
 
 except requests.exceptions.RequestException as e:
-    st.error(f"Unexpected error: {str(e)}")
+    st.error(f"Unexpected error: {str(e)}") 

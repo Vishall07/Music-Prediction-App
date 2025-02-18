@@ -68,4 +68,4 @@ async def process_local_file(db: Session = Depends(get_db)):
 @app.get("/results/")
 async def get_results(db: Session = Depends(get_db)):
     results = db.query(models.DataEntry).all()
-    return results
+    return results 

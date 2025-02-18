@@ -33,4 +33,4 @@ try:
     st.dataframe(filtered_df)
 
 except Exception as e:
-    st.error(f"Error loading data: {str(e)}")
+    st.error(f"Error loading data: {str(e)}") 
