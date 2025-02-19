@@ -1,7 +1,6 @@
-from sqlalchemy import Column, Integer, String, Float
-from sqlalchemy.ext.declarative import declarative_base
-
-Base = declarative_base()  # <-- This is necessary!
+from sqlalchemy import Column, Integer, String, Float, DateTime
+from database import Base  # Ensure you're using Base from database.py
+import datetime
 
 class DataEntry(Base):
     __tablename__ = "data_entries"
@@ -10,3 +9,4 @@ class DataEntry(Base):
     feature1 = Column(Float, nullable=False)
     feature2 = Column(Float, nullable=False)
     prediction = Column(String, nullable=False)
+    date = Column(DateTime, default=datetime.datetime.utcnow)

@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import requests
 
 st.title("📊 Past Prediction Page")
 
@@ -8,29 +9,34 @@ start_date = st.date_input("Start Date")
 end_date = st.date_input("End Date")
 
 # Fetch past predictions from FastAPI
-url = "http://127.0.0.1:8000/results/"
+url = "http://127.0.0.1:8000/docs#/default/predict_predict__get"
 
 try:
-    df = pd.read_json(url)  # Load Data
-    st.write("### Raw Data from API:")
-    st.write(df.head())  # Debugging step
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        predictions = response.json()
+        df = pd.DataFrame(predictions)
+        
+        if df.empty:
+            st.warning("No past predictions found.")
+        else:
+            st.write("### Raw Data from API:")
+            st.dataframe(df.head())
 
-    if "Date" not in df.columns:
-        st.error("Error: The dataset does not contain a 'Date' column.")
-        st.write("Available columns:", df.columns.tolist())
-        st.stop()
+            # Convert "date" column to datetime
+            df["date"] = pd.to_datetime(df["date"])
 
-    # Convert "Date" column to datetime
-    df["Date"] = pd.to_datetime(df["Date"])
+            # Apply date filters
+            filtered_df = df[
+                (df["date"] >= pd.to_datetime(start_date)) &
+                (df["date"] <= pd.to_datetime(end_date))
+            ]
 
-    # Apply date filters
-    filtered_df = df[
-        (df["Date"] >= pd.to_datetime(start_date)) &
-        (df["Date"] <= pd.to_datetime(end_date))
-    ]
+            st.write("### Filtered Past Predictions")
+            st.dataframe(filtered_df)
+    else:
+        st.error(f"Error: {response.status_code} - {response.text}")
 
-    st.write("### Filtered Past Predictions")
-    st.dataframe(filtered_df)
-
-except Exception as e:
-    st.error(f"Error loading data: {str(e)}") 
+except requests.exceptions.RequestException as e:
+    st.error(f"Error loading data: {str(e)}")
