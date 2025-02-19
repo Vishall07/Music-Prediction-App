@@ -1,0 +1,33 @@
+[2025-02-18 00:22:00,677] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: prediction_job.check_for_new_data scheduled__2025-02-18T00:20:00+00:00 [queued]>
+[2025-02-18 00:22:00,694] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: prediction_job.check_for_new_data scheduled__2025-02-18T00:20:00+00:00 [queued]>
+[2025-02-18 00:22:00,695] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-18 00:22:00,696] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2025-02-18 00:22:00,696] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-18 00:22:00,718] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): check_for_new_data> on 2025-02-18 00:20:00+00:00
+[2025-02-18 00:22:00,724] {standard_task_runner.py:52} INFO - Started process 209 to run task
+[2025-02-18 00:22:00,729] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'prediction_job', 'check_for_new_data', 'scheduled__2025-02-18T00:20:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/prediction_job.py', '--cfg-path', '/tmp/tmpdxcdfk5w', '--error-file', '/tmp/tmpyvzpd6v_']
+[2025-02-18 00:22:00,731] {standard_task_runner.py:80} INFO - Job 38: Subtask check_for_new_data
+[2025-02-18 00:22:00,767] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-18 00:22:00,825] {task_command.py:369} INFO - Running <TaskInstance: prediction_job.check_for_new_data scheduled__2025-02-18T00:20:00+00:00 [running]> on host 7ce684a335a4
+[2025-02-18 00:22:00,917] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=prediction_job
+AIRFLOW_CTX_TASK_ID=check_for_new_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-18T00:20:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-02-18T00:20:00+00:00
+[2025-02-18 00:22:00,919] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/prediction_job.py", line 41, in check_for_new_data
+    files = os.listdir(GOOD_DATA_FOLDER)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/good_data'
+[2025-02-18 00:22:00,932] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=prediction_job, task_id=check_for_new_data, execution_date=20250218T002000, start_date=20250218T002200, end_date=20250218T002200
+[2025-02-18 00:22:00,946] {standard_task_runner.py:97} ERROR - Failed to execute job 38 for task check_for_new_data ([Errno 2] No such file or directory: 'data/good_data'; 209)
+[2025-02-18 00:22:00,984] {local_task_job.py:156} INFO - Task exited with return code 1
+[2025-02-18 00:22:01,046] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,6 @@
+artist,song,duration_ms,explicit,year,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,genre,ingestion_timestamp
+Twista,Slow Jamz,316053,True,2004,72,0.559,0.733,2,-5.659,0,0.171,0.314,0.0,0.284,0.611,145.115,"hip hop, pop, R&B",2025-02-16 11:22:45.847816
+Black Eyed Peas,Boom Boom Pow,251440,True,2009,68,0.867,0.857,9,-5.892,1,0.0663,0.13,0.00171,0.13,0.402,130.048,"hip hop, pop",2025-02-16 11:22:45.847816
+Taylor Swift,You Belong With Me,231146,False,2008,55,0.687,0.771,6,-4.424,1,0.0384,0.164,2.46e-05,0.112,0.445,129.964,pop,2025-02-16 11:22:45.847816
+Anne-Marie,Ciao Adios,200104,False,2017,57,0.698,0.882,4,-3.078,0,0.0863,0.127,0.0,0.15,0.445,106.083,"pop, Dance/Electronic",2025-02-16 11:22:45.847816
+Mario Winans,I Don't Wanna Know (feat. Enya & P. Diddy) - 2016 Remaster,257333,False,2016,66,0.833,0.515,11,-5.0,0,0.0462,0.347,0.00156,0.116,0.4,97.007,pop,2025-02-16 11:22:45.847816
