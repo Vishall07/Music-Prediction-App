@@ -1,42 +1,57 @@
 import streamlit as st
-import pandas as pd
 import requests
+import pandas as pd
 
-st.title("📊 Past Prediction Page")
+# Streamlit UI title
+st.title("Past Predictions")
 
-# Date selection widgets
-start_date = st.date_input("Start Date")
-end_date = st.date_input("End Date")
+# Define the FastAPI backend URL
+API_URL = "http://127.0.0.1:8000/past-predictions/"
 
-# Fetch past predictions from FastAPI
-url = "http://127.0.0.1:8000/docs#/default/predict_predict__get"
+# Function to fetch past predictions from FastAPI
+def fetch_past_predictions():
+    try:
+        response = requests.get(API_URL)
 
-try:
-    response = requests.get(url)
-    
-    if response.status_code == 200:
-        predictions = response.json()
-        df = pd.DataFrame(predictions)
-        
-        if df.empty:
-            st.warning("No past predictions found.")
-        else:
-            st.write("### Raw Data from API:")
-            st.dataframe(df.head())
+        # Print raw response for debugging
+        print("Raw API Response:", response.text)
 
-            # Convert "date" column to datetime
-            df["date"] = pd.to_datetime(df["date"])
+        # Check for HTTP errors
+        if response.status_code != 200:
+            st.error(f"API Error: {response.status_code} - {response.reason}")
+            return []
 
-            # Apply date filters
-            filtered_df = df[
-                (df["date"] >= pd.to_datetime(start_date)) &
-                (df["date"] <= pd.to_datetime(end_date))
-            ]
+        # Parse JSON response
+        data = response.json()
 
-            st.write("### Filtered Past Predictions")
-            st.dataframe(filtered_df)
+        # Ensure data is in expected format (list of dicts)
+        if not isinstance(data, list):
+            st.error("Unexpected API response format. Check FastAPI logs.")
+            return []
+
+        return data
+
+    except requests.exceptions.RequestException as e:
+        st.error(f"Error connecting to API: {e}")
+        return []
+    except ValueError as e:
+        st.error(f"Error parsing JSON response: {e}")
+        return []
+
+# Fetch past predictions
+past_predictions = fetch_past_predictions()
+
+# Display results in a table if data exists
+if past_predictions:
+    df = pd.DataFrame(past_predictions)
+
+    # Ensure necessary columns exist
+    expected_columns = {"id", "feature1", "feature2", "prediction", "date"}
+    if not expected_columns.issubset(df.columns):
+        st.error("API response does not contain the required fields.")
     else:
-        st.error(f"Error: {response.status_code} - {response.text}")
-
-except requests.exceptions.RequestException as e:
-    st.error(f"Error loading data: {str(e)}")
+        # Format and display the table
+        df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d %H:%M:%S")
+        st.dataframe(df)
+else:
+    st.write("No past predictions found.")
