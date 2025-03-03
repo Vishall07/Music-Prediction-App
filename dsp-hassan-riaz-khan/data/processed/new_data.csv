@@ -1,0 +1,6 @@
+artist,song,duration_ms,explicit,year,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,genre,ingestion_timestamp
+3 Doors Down,Let Me Go,243053,False,2012,52,0.478,0.863,1,-4.914,0,0.0387,0.0181,0.0,0.111,0.491,92.004,"pop, rock, metal",2025-03-02 15:22:45.434801
+Black Eyed Peas,Meet Me Halfway,284373,False,2009,72,0.798,0.629,11,-6.857,0,0.0735,0.00474,2.17e-05,0.324,0.4,130.0,"hip hop, pop",2025-03-02 15:22:45.434801
+Busta Rhymes,I Know What You Want (feat. Flipmode Squad),324306,True,2002,68,0.648,0.759,6,-4.315,1,0.306,0.0142,0.0,0.648,0.518,85.996,"hip hop, pop",2025-03-02 15:22:45.434801
+Wiley,Wearing My Rolex - Radio Edit,170480,False,2008,59,0.876,0.716,1,-6.884,1,0.135,0.0468,0.000482,0.0667,0.755,131.942,"hip hop, Dance/Electronic",2025-03-02 15:22:45.434801
+K'NAAN,Wavin' Flag,220520,False,2009,57,0.625,0.699,0,-6.416,1,0.0729,0.13,0.0,0.238,0.717,75.974,set(),2025-03-02 15:22:45.434801
