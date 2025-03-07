@@ -1,57 +1,35 @@
 import streamlit as st
-import requests
 import pandas as pd
 
-# Streamlit UI title
-st.title("Past Predictions")
+st.title("📊 Past Prediction Page")
 
-# Define the FastAPI backend URL
-API_URL = "http://127.0.0.1:8000/past-predictions/"
+# Date selection
+start_date = st.date_input("Start Date")
+end_date = st.date_input("End Date")
 
-# Function to fetch past predictions from FastAPI
-def fetch_past_predictions():
-    try:
-        response = requests.get(API_URL)
+# Prediction source selection
+prediction_source = st.selectbox(
+    "Select Prediction Source",
+    ["All", "WebApp", "Scheduled Predictions"]
+)
 
-        # Print raw response for debugging
-        print("Raw API Response:", response.text)
+# Simulated past predictions data
+data = {
+    "Date": pd.date_range(start="2024-02-01", periods=10, freq="D"),
+    "Source": ["WebApp", "Scheduled Predictions"] * 5,
+    "Prediction": ["Positive", "Negative"] * 5
+}
+df = pd.DataFrame(data)
 
-        # Check for HTTP errors
-        if response.status_code != 200:
-            st.error(f"API Error: {response.status_code} - {response.reason}")
-            return []
+# Apply filters
+filtered_df = df[
+    (df["Date"] >= pd.to_datetime(start_date)) &
+    (df["Date"] <= pd.to_datetime(end_date))
+]
 
-        # Parse JSON response
-        data = response.json()
+if prediction_source != "All":
+    filtered_df = filtered_df[filtered_df["Source"] == prediction_source]
 
-        # Ensure data is in expected format (list of dicts)
-        if not isinstance(data, list):
-            st.error("Unexpected API response format. Check FastAPI logs.")
-            return []
-
-        return data
-
-    except requests.exceptions.RequestException as e:
-        st.error(f"Error connecting to API: {e}")
-        return []
-    except ValueError as e:
-        st.error(f"Error parsing JSON response: {e}")
-        return []
-
-# Fetch past predictions
-past_predictions = fetch_past_predictions()
-
-# Display results in a table if data exists
-if past_predictions:
-    df = pd.DataFrame(past_predictions)
-
-    # Ensure necessary columns exist
-    expected_columns = {"id", "feature1", "feature2", "prediction", "date"}
-    if not expected_columns.issubset(df.columns):
-        st.error("API response does not contain the required fields.")
-    else:
-        # Format and display the table
-        df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d %H:%M:%S")
-        st.dataframe(df)
-else:
-    st.write("No past predictions found.")
+# Display filtered results
+st.write("### Filtered Past Predictions")
+st.dataframe(filtered_df)
