@@ -1,5 +1,21 @@
+import os
+import shutil
+import pandas as pd
+import psycopg2
+import logging
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from datetime import datetime
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+
+
+
+from airflow import DAG
 import pandas as pd
 import psycopg2
 import logging
@@ -13,7 +29,7 @@ def extract_to_excel():
     try:
         logger.info("Starting manual PostgreSQL connection test...")
         source_path = "/opt/airflow/dags/songs_1.csv"  # Source file path
-        destination_path = "/opt/airflow/logs/songs.csv"  # Destination folder
+        destination_path = "/opt/airflow/data/songs.csv"  # Destination folder
 
         logger.info("Starting CSV processing...")
 
@@ -44,7 +60,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="a_extract_postgres_to_excel_manual",
+    dag_id="Ingestion_job",
     default_args=default_args,
     schedule_interval="@daily",
     catchup=False,
