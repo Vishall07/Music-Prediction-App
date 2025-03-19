@@ -34,4 +34,4 @@ st.dataframe(filtered_df)
 
 # Past Prediction Button
 if st.button("Past Prediction"):
-    st.write("You clicked the Past Prediction button!")
+    st.write("Hurray! Minhal will carry out his part")
