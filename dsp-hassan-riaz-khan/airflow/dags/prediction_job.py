@@ -1,4 +1,10 @@
 #---------------------------------------------------------------------------------------------------------------#
+#                                           PREDICTION JOB DAG
+#---------------------------------------------------------------------------------------------------------------#
+
+
+
+#---------------------------------------------------------------------------------------------------------------#
 # Imports
 #---------------------------------------------------------------------------------------------------------------#
 from airflow import DAG
@@ -13,7 +19,7 @@ import sys
 from sqlalchemy.exc import SQLAlchemyError
 from airflow.utils.dates import days_ago
 
-#------------------------------------------ Logger Configuration -----------------------------------------------#
+#--------------------------------------- Error Logger Configuration --------------------------------------------#
 from datetime import timezone
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -25,7 +31,7 @@ if project_root not in sys.path:
     
 #---------------------------------------------------------------------------------------------------------------#
 
-from database.models import Prediction, ProcessedFile
+from database.models import BasePrediction, ProcessedFile
 from database.init_db import SessionLocal
 #---------------------------------------------------------------------------------------------------------------#
 
@@ -34,8 +40,8 @@ from database.init_db import SessionLocal
 #---------------------------------------------------------------------------------------------------------------#
 # Data Paths
 #---------------------------------------------------------------------------------------------------------------#
-GOOD_DATA_FOLDER = "C:/Users/hassa/Desktop/DSP/dsp-hassan-riaz-khan/data/good_data"
-PROCESSED_FILES_TABLE = "C:/Users/hassa/Desktop/DSP/dsp-hassan-riaz-khan/data/processed_files"
+GOOD_DATA_FOLDER = "/mnt/c/Users/hassa/Desktop/DSP/dsp-hassan-riaz-khan/data/good_data"
+PROCESSED_FILES_TABLE = "/mnt/c/Users/hassa/Desktop/DSP/dsp-hassan-riaz-khan/data/processed"
 #---------------------------------------------------------------------------------------------------------------#
 
 
@@ -52,25 +58,22 @@ PREDICTION_API_URL = "http://localhost:8000/predict"
 # Folders and Files Access Points
 #---------------------------------------------------------------------------------------------------------------#
 def check_for_new_data():
-    # Get list of files in good_data folder
     files = os.listdir(GOOD_DATA_FOLDER)
     if not files:
         return None
 
-    # Get list of already processed files
     db = SessionLocal()
     processed_files = db.query(PROCESSED_FILES_TABLE).all()
     processed_files = [row.filename for row in processed_files]
     db.close()
 
-    # Filter out processed files
     return [f for f in files if f not in processed_files]
 #---------------------------------------------------------------------------------------------------------------#
 
 
 
 #---------------------------------------------------------------------------------------------------------------#
-# API Access
+# Accessing API and Database
 #---------------------------------------------------------------------------------------------------------------#
 def make_predictions(new_files):
     """
@@ -85,24 +88,20 @@ def make_predictions(new_files):
         logger.info(f"Processing file: {file}")
 
         try:
-            # Read the file
             df = pd.read_csv(file_path)
             logger.info(f"Successfully read {len(df)} rows from {file}.")
 
-            # Prepare input data for the API
             input_data = {"data": df.to_dict(orient="records")}
 
-            # Make predictions using the API
             response = requests.post(PREDICTION_API_URL, json=input_data)
             if response.status_code != 200:
                 logger.error(f"Failed to make predictions for {file}. Status code: {response.status_code}")
                 continue
 
-            # Save predictions to the database
             predictions = response.json()["predictions"]
             db = SessionLocal()
             for i, row in df.iterrows():
-                db_prediction = Prediction(
+                db_prediction = BasePrediction(
                     features=row.to_dict(),
                     prediction_result={"popularity": predictions[i]},
                     source="SCHEDULED",
@@ -112,7 +111,6 @@ def make_predictions(new_files):
             db.commit()
             logger.info(f"Successfully saved predictions for {file} to the database.")
 
-            # Mark the file as processed
             db_processed_file = ProcessedFile(
                 filename=file, processed_at=datetime.now(timezone.utc)
             )
