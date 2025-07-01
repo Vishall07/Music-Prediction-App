@@ -38,57 +38,6 @@ services:
     environment:
       API_URL: http://backend:8000
 
-  airflow-init:
-    image: apache/airflow:2.10.2
-    depends_on:
-      - postgres
-    environment:
-      AIRFLOW__CORE__EXECUTOR: CeleryExecutor
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://myuser:mypass@postgres/mydb
-      AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://myuser:mypass@postgres/mydb
-      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
-    volumes:
-      - ./airflow/dags:/opt/airflow/dags
-    entrypoint: /bin/bash -c "airflow db init"
-
-  airflow-webserver:
-    image: apache/airflow:2.10.2
-    depends_on:
-      - airflow-init
-    ports:
-      - "8080:8080"
-    environment:
-      AIRFLOW__CORE__EXECUTOR: CeleryExecutor
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://myuser:mypass@postgres/mydb
-      AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://myuser:mypass@postgres/mydb
-    volumes:
-      - ./airflow/dags:/opt/airflow/dags
-    command: >
-      bash -c "airflow db upgrade && airflow users create --username admin --password admin123 --firstname Admin --lastname User --role Admin --email admin@example.com && airflow webserver"
-
-
-  airflow-scheduler:
-    image: apache/airflow:2.10.2
-    depends_on:
-      - airflow-webserver
-    environment:
-      AIRFLOW__CORE__EXECUTOR: CeleryExecutor
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://myuser:mypass@postgres/mydb
-    volumes:
-      - ./airflow/dags:/opt/airflow/dags
-    command: scheduler
-
-  airflow-worker:
-    image: apache/airflow:2.10.2
-    depends_on:
-      - airflow-webserver
-    environment:
-      AIRFLOW__CORE__EXECUTOR: CeleryExecutor
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://myuser:mypass@postgres/mydb
-    volumes:
-      - ./airflow/dags:/opt/airflow/dags
-    command: celery worker
-
   grafana:
     image: grafana/grafana:10.0.0
     container_name: grafana
@@ -98,6 +47,28 @@ services:
       - ./grafana/provisioning:/etc/grafana/provisioning
     depends_on:
       - backend
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+  airflow:
+    image: apache/airflow:2.8.1-python3.8
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflowpass@postgres:5432/airflow
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+    ports:
+      - "8080:8080"
+    command: >
+      bash -c "pip install psycopg2-binary requests &&
+               airflow db init &&
+               airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com &&
+               airflow webserver"
 
 volumes:
   pgdata:
