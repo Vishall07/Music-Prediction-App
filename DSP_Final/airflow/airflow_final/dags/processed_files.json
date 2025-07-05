@@ -1,0 +1,1540 @@
+{
+  "processed_files": [
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25214_1751323600797398100",
+      "processed_at": "2025-07-01T00:57:56.442628",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25335_1751323600823343900",
+      "processed_at": "2025-07-01T00:58:00.737076",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25675_1751323600800317900",
+      "processed_at": "2025-07-01T00:58:05.109689",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "26136_1751323600803313200",
+      "processed_at": "2025-07-01T00:58:09.401835",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25763_1751323600806334900",
+      "processed_at": "2025-07-01T00:58:13.494019",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25655_1751323600808316100",
+      "processed_at": "2025-07-01T00:58:17.778790",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25880_1751323600812340000",
+      "processed_at": "2025-07-01T00:58:22.243099",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25943_1751323600815397100",
+      "processed_at": "2025-07-01T00:58:27.159616",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25796_1751323600817389300",
+      "processed_at": "2025-07-01T00:58:32.102645",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "25303_1751323600821341800",
+      "processed_at": "2025-07-01T00:58:36.915432",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "25884_1751323397212150000",
+      "processed_at": "2025-07-01T13:42:51.519505",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "26148_1751323397214148500",
+      "processed_at": "2025-07-01T13:44:41.990555",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "25734_1751323397195135100",
+      "processed_at": "2025-07-01T13:44:46.900573",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25559_1751323397200138800",
+      "processed_at": "2025-07-01T13:46:42.055457",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25892_1751323397206148500",
+      "processed_at": "2025-07-01T13:46:46.306346",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25770_1751323397193135500",
+      "processed_at": "2025-07-01T13:48:43.160677",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25680_1751323397203146700",
+      "processed_at": "2025-07-01T13:48:48.084174",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25831_1751323397190137400",
+      "processed_at": "2025-07-01T13:50:47.194619",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25163_1751323397208149800",
+      "processed_at": "2025-07-01T13:50:52.738163",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25577_1751323397198137500",
+      "processed_at": "2025-07-01T13:52:42.563183",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25659_1751389095842300100",
+      "processed_at": "2025-07-01T19:00:00.405633",
+      "successful_records": 191
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25421_1751389095873230200",
+      "processed_at": "2025-07-01T19:00:07.836290",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25849_1751389095844454100",
+      "processed_at": "2025-07-01T19:00:14.552938",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "26455_1751389095848181700",
+      "processed_at": "2025-07-01T19:00:22.880065",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25231_1751389095851714800",
+      "processed_at": "2025-07-01T19:00:32.144702",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25726_1751389095854221800",
+      "processed_at": "2025-07-01T19:00:41.124906",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25668_1751389095858295400",
+      "processed_at": "2025-07-01T19:00:49.763181",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25706_1751389095862815500",
+      "processed_at": "2025-07-01T19:00:58.527319",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25511_1751389095867576700",
+      "processed_at": "2025-07-01T19:01:07.475548",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "25168_1751389095870229900",
+      "processed_at": "2025-07-01T19:01:16.467716",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "26743_1751411183238905200",
+      "processed_at": "2025-07-02T01:15:03.537410",
+      "successful_records": 152
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "26723_1751411266376079900",
+      "processed_at": "2025-07-02T01:15:11.348227",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "26185_1751411504460002800",
+      "processed_at": "2025-07-02T01:15:19.209368",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "26676_1751411457218031900",
+      "processed_at": "2025-07-02T01:16:39.076495",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "26866_1751411593886872900",
+      "processed_at": "2025-07-02T01:16:45.831875",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "27472_1751411751943780800",
+      "processed_at": "2025-07-02T01:16:52.255562",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "26248_1751411644804305400",
+      "processed_at": "2025-07-02T01:16:58.963525",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "26438_1751411841617494300",
+      "processed_at": "2025-07-02T01:18:53.600707",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "26685_1751411886315273000",
+      "processed_at": "2025-07-02T01:19:00.377856",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25458_1751445976510445900",
+      "processed_at": "2025-07-02T18:07:38.239895",
+      "successful_records": 128
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25648_1751444674574766400",
+      "processed_at": "2025-07-02T18:07:45.861767",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "26254_1751445776022351200",
+      "processed_at": "2025-07-02T18:07:56.048147",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25030_1751445907365407800",
+      "processed_at": "2025-07-02T18:08:05.398944",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25525_1751445841651208500",
+      "processed_at": "2025-07-02T18:08:13.913387",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25220_1751411841558520300",
+      "processed_at": "2025-07-02T18:10:54.653067",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25505_1751411266357902900",
+      "processed_at": "2025-07-02T18:11:00.568387",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "24967_1751411504437964600",
+      "processed_at": "2025-07-02T18:11:14.045103",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25467_1751411886298659300",
+      "processed_at": "2025-07-02T18:28:52.373946",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751474464164189300",
+      "processed_at": "2025-07-02T18:43:14.894362",
+      "successful_records": 1998
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25458_1751411457198876000",
+      "processed_at": "2025-07-02T19:21:14.944345",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25648_1751411593855282600",
+      "processed_at": "2025-07-02T19:24:38.244411",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25525_1751411183215831000",
+      "processed_at": "2025-07-02T19:24:44.911339",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "26254_1751411751917740300",
+      "processed_at": "2025-07-02T19:32:37.898387",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751477501111383300",
+      "processed_at": "2025-07-02T19:34:04.868556",
+      "successful_records": 1998
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25163_1751323397208149800",
+      "processed_at": "2025-07-02T19:35:07.940459",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751478649755912000",
+      "processed_at": "2025-07-02T19:53:21.515213",
+      "successful_records": 1998
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751480267288585500",
+      "processed_at": "2025-07-02T20:19:37.380863",
+      "successful_records": 1998
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751480822314106600",
+      "processed_at": "2025-07-02T20:29:32.882345",
+      "successful_records": 1998
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751481409641451700",
+      "processed_at": "2025-07-02T20:40:04.225444",
+      "successful_records": 1998
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751481850584609400",
+      "processed_at": "2025-07-02T20:45:37.539357",
+      "successful_records": 1998
+    },
+    {
+      "filename": "valid_data_10.csv",
+      "fingerprint": "25220_1751483180588854400",
+      "processed_at": "2025-07-02T21:07:00.919005",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751483086724119300",
+      "processed_at": "2025-07-02T21:08:06.576330",
+      "successful_records": 1998
+    },
+    {
+      "filename": "valid_data_1.csv",
+      "fingerprint": "25458_1751483708948112800",
+      "processed_at": "2025-07-02T21:16:38.619946",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_data_2.csv",
+      "fingerprint": "25648_1751483755764342200",
+      "processed_at": "2025-07-02T21:16:47.465920",
+      "successful_records": 200
+    },
+    {
+      "filename": "spotify_semi_errored_data.csv",
+      "fingerprint": "254823_1751477442552660300",
+      "processed_at": "2025-07-02T22:26:12.156678",
+      "successful_records": 1998
+    },
+    {
+      "filename": "spotify_fully_errored_data.csv",
+      "fingerprint": "70031_1751483303715464600",
+      "processed_at": "2025-07-02T22:27:15.440363",
+      "successful_records": 553
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "26089_1751489744355674000",
+      "processed_at": "2025-07-02T22:56:28.610368",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25789_1751489744379869000",
+      "processed_at": "2025-07-02T22:56:34.838422",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "26104_1751489744358674600",
+      "processed_at": "2025-07-02T22:56:42.148960",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "26180_1751489744361588000",
+      "processed_at": "2025-07-02T22:56:51.957312",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25918_1751489744364236600",
+      "processed_at": "2025-07-02T22:57:01.553227",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25776_1751489744366852300",
+      "processed_at": "2025-07-02T22:57:12.120366",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25815_1751489744369862100",
+      "processed_at": "2025-07-02T22:57:21.923289",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25155_1751489744372869300",
+      "processed_at": "2025-07-02T22:57:31.397295",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25637_1751489744374869700",
+      "processed_at": "2025-07-02T22:57:41.247228",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "25630_1751489744377868000",
+      "processed_at": "2025-07-02T22:57:48.688291",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751491036757499600",
+      "processed_at": "2025-07-02T23:18:37.950674",
+      "successful_records": 553
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751532266287592200",
+      "processed_at": "2025-07-03T10:46:18.705310",
+      "successful_records": 1998
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25220_1751411841558520300",
+      "processed_at": "2025-07-03T10:48:33.567064",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751532469539717900",
+      "processed_at": "2025-07-03T10:48:57.349630",
+      "successful_records": 553
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25030_1751411644754115800",
+      "processed_at": "2025-07-03T10:56:33.234566",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25505_1751411266357902900",
+      "processed_at": "2025-07-03T10:56:42.156908",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "26254_1751411751917740300",
+      "processed_at": "2025-07-03T10:58:41.696506",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25525_1751411183215831000",
+      "processed_at": "2025-07-03T10:58:48.028508",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25458_1751411457198876000",
+      "processed_at": "2025-07-03T11:00:50.564186",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25467_1751411886298659300",
+      "processed_at": "2025-07-03T11:00:56.727579",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751533301596938500",
+      "processed_at": "2025-07-03T11:03:55.222635",
+      "successful_records": 1998
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25648_1751411593855282600",
+      "processed_at": "2025-07-03T11:05:00.291143",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25163_1751323397208149800",
+      "processed_at": "2025-07-03T11:06:35.992050",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "24967_1751411504437964600",
+      "processed_at": "2025-07-03T11:08:34.533740",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751533673304088400",
+      "processed_at": "2025-07-03T11:08:59.964872",
+      "successful_records": 553
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751536717333566800",
+      "processed_at": "2025-07-03T12:01:56.073246",
+      "successful_records": 1998
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751536838074270600",
+      "processed_at": "2025-07-03T12:03:01.414571",
+      "successful_records": 553
+    },
+    {
+      "filename": "data_11.csv",
+      "fingerprint": "25484_1751537069944076800",
+      "processed_at": "2025-07-03T12:07:02.973395",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_12.csv",
+      "fingerprint": "25893_1751537069947080200",
+      "processed_at": "2025-07-03T12:08:56.448819",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_20.csv",
+      "fingerprint": "25476_1751537069988497300",
+      "processed_at": "2025-07-03T12:09:02.719720",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_14.csv",
+      "fingerprint": "25922_1751537069952102700",
+      "processed_at": "2025-07-03T12:10:39.824911",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_18.csv",
+      "fingerprint": "25897_1751537069981492000",
+      "processed_at": "2025-07-03T12:10:45.803697",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_16.csv",
+      "fingerprint": "25805_1751537069974987200",
+      "processed_at": "2025-07-03T12:12:33.469208",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_19.csv",
+      "fingerprint": "25662_1751537069984498600",
+      "processed_at": "2025-07-03T12:12:40.517079",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_15.csv",
+      "fingerprint": "25381_1751537069957615200",
+      "processed_at": "2025-07-03T12:14:48.171691",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_17.csv",
+      "fingerprint": "25770_1751537069978987800",
+      "processed_at": "2025-07-03T12:14:54.317912",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_music_data_4.csv",
+      "fingerprint": "5407_1751537786320271400",
+      "processed_at": "2025-07-03T12:16:52.393812",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_6.csv",
+      "fingerprint": "5421_1751537851433711400",
+      "processed_at": "2025-07-03T12:18:47.875428",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_8.csv",
+      "fingerprint": "5412_1751537901011643800",
+      "processed_at": "2025-07-03T12:18:49.456846",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_5.csv",
+      "fingerprint": "5438_1751537966505066900",
+      "processed_at": "2025-07-03T12:21:01.093477",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_7.csv",
+      "fingerprint": "5445_1751538029401918600",
+      "processed_at": "2025-07-03T12:21:02.666016",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_1.csv",
+      "fingerprint": "5401_1751538109587972700",
+      "processed_at": "2025-07-03T12:22:54.333883",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_9.csv",
+      "fingerprint": "5478_1751537735401101800",
+      "processed_at": "2025-07-03T12:24:53.998287",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_10.csv",
+      "fingerprint": "5428_1751538167945200500",
+      "processed_at": "2025-07-03T12:24:55.962427",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_2.csv",
+      "fingerprint": "5425_1751538347076419900",
+      "processed_at": "2025-07-03T12:26:55.035355",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_3.csv",
+      "fingerprint": "5400_1751538282593546300",
+      "processed_at": "2025-07-03T12:26:56.647378",
+      "successful_records": 50
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "25762_1751541719045993000",
+      "processed_at": "2025-07-03T13:25:07.642561",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25504_1751541719058990900",
+      "processed_at": "2025-07-03T13:25:13.374142",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25830_1751541719050987800",
+      "processed_at": "2025-07-03T13:26:47.187321",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "26038_1751541719064005400",
+      "processed_at": "2025-07-03T13:26:53.376869",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25703_1751541719037994700",
+      "processed_at": "2025-07-03T13:28:56.018058",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "25840_1751541719073404200",
+      "processed_at": "2025-07-03T13:29:02.044819",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25518_1751541719054997700",
+      "processed_at": "2025-07-03T13:30:55.774037",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25675_1751541719076402000",
+      "processed_at": "2025-07-03T13:32:34.623661",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25238_1751541719068000100",
+      "processed_at": "2025-07-03T13:32:41.305738",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25337_1751541719040989700",
+      "processed_at": "2025-07-03T13:34:24.730252",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25228_1751542794352181600",
+      "processed_at": "2025-07-03T13:52:59.699707",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25172_1751542794328179800",
+      "processed_at": "2025-07-03T13:53:03.693987",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "25285_1751542794331187800",
+      "processed_at": "2025-07-03T13:53:07.457775",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25692_1751542794334190600",
+      "processed_at": "2025-07-03T13:53:11.437435",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25440_1751542794337181700",
+      "processed_at": "2025-07-03T13:53:15.720577",
+      "successful_records": 100
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25550_1751542794340183500",
+      "processed_at": "2025-07-03T13:53:19.932454",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "26078_1751542794346189000",
+      "processed_at": "2025-07-03T13:53:23.897037",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25986_1751542794325178800",
+      "processed_at": "2025-07-03T13:54:49.119799",
+      "successful_records": 100
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "25722_1751542794349186700",
+      "processed_at": "2025-07-03T13:54:53.422543",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25495_1751542794343178800",
+      "processed_at": "2025-07-03T13:56:49.524677",
+      "successful_records": 100
+    },
+    {
+      "filename": "valid_music_data_2.csv",
+      "fingerprint": "5416_1751544259384293600",
+      "processed_at": "2025-07-03T14:04:51.839707",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_1.csv",
+      "fingerprint": "5432_1751544334262474000",
+      "processed_at": "2025-07-03T14:06:45.833398",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_6.csv",
+      "fingerprint": "5428_1751544457130701500",
+      "processed_at": "2025-07-03T14:08:49.741778",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_8.csv",
+      "fingerprint": "5406_1751544397726159500",
+      "processed_at": "2025-07-03T14:08:50.941258",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_7.csv",
+      "fingerprint": "5509_1751544133169958500",
+      "processed_at": "2025-07-03T14:12:52.880370",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_9.csv",
+      "fingerprint": "5460_1751544133174589000",
+      "processed_at": "2025-07-03T14:12:53.787163",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_10.csv",
+      "fingerprint": "5439_1751544518374391200",
+      "processed_at": "2025-07-03T14:12:54.793532",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_3.csv",
+      "fingerprint": "5456_1751544655200991500",
+      "processed_at": "2025-07-03T14:12:55.892290",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_5.csv",
+      "fingerprint": "5457_1751544133164765100",
+      "processed_at": "2025-07-03T14:14:35.801665",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_4.csv",
+      "fingerprint": "5455_1751544133162764500",
+      "processed_at": "2025-07-03T14:16:39.688102",
+      "successful_records": 50
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25408_1751545693069900100",
+      "processed_at": "2025-07-03T14:30:44.536235",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25500_1751545693081479200",
+      "processed_at": "2025-07-03T14:30:49.414821",
+      "successful_records": 198
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25731_1751545693086831800",
+      "processed_at": "2025-07-03T14:33:04.148543",
+      "successful_records": 197
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "26085_1751545693092823000",
+      "processed_at": "2025-07-03T14:33:08.424789",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25766_1751545693071930800",
+      "processed_at": "2025-07-03T14:34:36.004180",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25694_1751545693095828900",
+      "processed_at": "2025-07-03T14:36:40.491160",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "25353_1751545693075878200",
+      "processed_at": "2025-07-03T14:36:44.473458",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "26012_1751545693089822100",
+      "processed_at": "2025-07-03T21:01:07.225415",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25872_1751545693078888000",
+      "processed_at": "2025-07-03T21:01:31.818105",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25424_1751545693084824000",
+      "processed_at": "2025-07-03T21:01:36.155465",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "24967_1751411504437964600",
+      "processed_at": "2025-07-03T23:25:01.171142",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25220_1751411841558520300",
+      "processed_at": "2025-07-03T23:26:37.078235",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25163_1751323397208149800",
+      "processed_at": "2025-07-03T23:26:40.845581",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_3.csv",
+      "fingerprint": "26254_1751411751917740300",
+      "processed_at": "2025-07-03T23:28:54.574111",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751578101428081900",
+      "processed_at": "2025-07-03T23:29:05.362186",
+      "successful_records": 553
+    },
+    {
+      "filename": "data_5.csv",
+      "fingerprint": "25525_1751411183215831000",
+      "processed_at": "2025-07-03T23:31:07.479461",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_1.csv",
+      "fingerprint": "25458_1751411457198876000",
+      "processed_at": "2025-07-03T23:32:43.767978",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_4.csv",
+      "fingerprint": "25030_1751411644754115800",
+      "processed_at": "2025-07-03T23:32:47.636041",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_7.csv",
+      "fingerprint": "25505_1751411266357902900",
+      "processed_at": "2025-07-03T23:34:48.930151",
+      "successful_records": 200
+    },
+    {
+      "filename": "data_2.csv",
+      "fingerprint": "25648_1751411593855282600",
+      "processed_at": "2025-07-03T23:37:01.956853",
+      "successful_records": 198
+    },
+    {
+      "filename": "data_6.csv",
+      "fingerprint": "25467_1751411886298659300",
+      "processed_at": "2025-07-03T23:37:05.920716",
+      "successful_records": 200
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751578612384025500",
+      "processed_at": "2025-07-03T23:38:59.378431",
+      "successful_records": 1997
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751585028654432900",
+      "processed_at": "2025-07-04T01:25:36.398047",
+      "successful_records": 1238
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751585098079608300",
+      "processed_at": "2025-07-04T01:26:55.136189",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751585944967460200",
+      "processed_at": "2025-07-04T01:41:05.982839",
+      "successful_records": 1238
+    },
+    {
+      "filename": "valid_valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751586102150293800",
+      "processed_at": "2025-07-04T01:43:04.350187",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751586464479034800",
+      "processed_at": "2025-07-04T01:49:10.467945",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751586406214416100",
+      "processed_at": "2025-07-04T01:49:42.266315",
+      "successful_records": 1238
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751588030849839300",
+      "processed_at": "2025-07-04T02:15:16.590802",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751587973558594500",
+      "processed_at": "2025-07-04T02:15:46.104939",
+      "successful_records": 1238
+    },
+    {
+      "filename": "data_13.csv",
+      "fingerprint": "25881_1751591036255106200",
+      "processed_at": "2025-07-04T03:08:46.059257",
+      "successful_records": 120
+    },
+    {
+      "filename": "data_16.csv",
+      "fingerprint": "25826_1751591036265108000",
+      "processed_at": "2025-07-04T03:08:49.373145",
+      "successful_records": 112
+    },
+    {
+      "filename": "data_19.csv",
+      "fingerprint": "25691_1751591036274104100",
+      "processed_at": "2025-07-04T03:08:53.260186",
+      "successful_records": 130
+    },
+    {
+      "filename": "data_14.csv",
+      "fingerprint": "25632_1751591036258103200",
+      "processed_at": "2025-07-04T03:16:53.232359",
+      "successful_records": 125
+    },
+    {
+      "filename": "data_12.csv",
+      "fingerprint": "26184_1751591036252585200",
+      "processed_at": "2025-07-04T03:19:00.200163",
+      "successful_records": 110
+    },
+    {
+      "filename": "data_17.csv",
+      "fingerprint": "25743_1751591036268104500",
+      "processed_at": "2025-07-04T03:19:03.282626",
+      "successful_records": 124
+    },
+    {
+      "filename": "data_20.csv",
+      "fingerprint": "25589_1751591036276102500",
+      "processed_at": "2025-07-04T03:19:06.296418",
+      "successful_records": 125
+    },
+    {
+      "filename": "data_11.csv",
+      "fingerprint": "25176_1751591036249574300",
+      "processed_at": "2025-07-04T03:21:07.716908",
+      "successful_records": 128
+    },
+    {
+      "filename": "data_15.csv",
+      "fingerprint": "25683_1751591036262103900",
+      "processed_at": "2025-07-04T03:22:38.560496",
+      "successful_records": 127
+    },
+    {
+      "filename": "data_18.csv",
+      "fingerprint": "25898_1751591036271102800",
+      "processed_at": "2025-07-04T03:22:42.310047",
+      "successful_records": 119
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751638210818670100",
+      "processed_at": "2025-07-04T16:10:50.111694",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751638145954263200",
+      "processed_at": "2025-07-04T16:11:27.319496",
+      "successful_records": 1238
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73247_1751638625534448200",
+      "processed_at": "2025-07-04T16:18:47.925377",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751638895684904700",
+      "processed_at": "2025-07-04T16:23:24.094327",
+      "successful_records": 1238
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751639652941096300",
+      "processed_at": "2025-07-04T16:34:46.286922",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751640054907285700",
+      "processed_at": "2025-07-04T16:42:33.249905",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751642214785507600",
+      "processed_at": "2025-07-04T17:19:08.007092",
+      "successful_records": 1238
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751642382188972500",
+      "processed_at": "2025-07-04T17:21:14.457275",
+      "successful_records": 334
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25220_1751687841778614700",
+      "processed_at": "2025-07-05T05:58:50.710148",
+      "successful_records": 129
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "24967_1751687898159324400",
+      "processed_at": "2025-07-05T05:58:53.859773",
+      "successful_records": 134
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "24962_1751687977491961100",
+      "processed_at": "2025-07-05T06:00:56.162752",
+      "successful_records": 131
+    },
+    {
+      "filename": "spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751688043456017000",
+      "processed_at": "2025-07-05T06:02:35.859460",
+      "successful_records": 334
+    },
+    {
+      "filename": "spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751688113315220100",
+      "processed_at": "2025-07-05T06:03:05.244592",
+      "successful_records": 1238
+    },
+    {
+      "filename": "spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751688600886437200",
+      "processed_at": "2025-07-05T06:11:02.325092",
+      "successful_records": 1238
+    },
+    {
+      "filename": "spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751688708532355300",
+      "processed_at": "2025-07-05T06:13:08.473320",
+      "successful_records": 334
+    },
+    {
+      "filename": "spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751688881279522900",
+      "processed_at": "2025-07-05T06:16:48.769875",
+      "successful_records": 334
+    },
+    {
+      "filename": "spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751688978109040300",
+      "processed_at": "2025-07-05T06:17:22.769700",
+      "successful_records": 1238
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751691616142773100",
+      "processed_at": "2025-07-05T07:00:59.481164",
+      "successful_records": 334
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751691555397141800",
+      "processed_at": "2025-07-05T07:01:34.862678",
+      "successful_records": 1238
+    },
+    {
+      "filename": "data_10.csv",
+      "fingerprint": "25220_1751411841558520300",
+      "processed_at": "2025-07-05T07:02:51.537074",
+      "successful_records": 129
+    },
+    {
+      "filename": "data_9.csv",
+      "fingerprint": "24967_1751411504437964600",
+      "processed_at": "2025-07-05T07:04:43.186685",
+      "successful_records": 134
+    },
+    {
+      "filename": "data_8.csv",
+      "fingerprint": "25163_1751323397208149800",
+      "processed_at": "2025-07-05T07:06:24.967103",
+      "successful_records": 131
+    },
+    {
+      "filename": "valid_errorsdata.csv",
+      "fingerprint": "1142_1751693600382655300",
+      "processed_at": "2025-07-05T07:34:45.308845",
+      "successful_records": 2
+    },
+    {
+      "filename": "music_data_6.csv",
+      "fingerprint": "5502_1751692165521479200",
+      "processed_at": "2025-07-05T07:40:30.952474",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_7.csv",
+      "fingerprint": "5475_1751692165523480200",
+      "processed_at": "2025-07-05T07:40:32.076283",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_8.csv",
+      "fingerprint": "5469_1751692165526479700",
+      "processed_at": "2025-07-05T07:40:33.100760",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_9.csv",
+      "fingerprint": "5504_1751692165528482300",
+      "processed_at": "2025-07-05T07:40:34.234556",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_1.csv",
+      "fingerprint": "5437_1751692853189771700",
+      "processed_at": "2025-07-05T07:40:35.211158",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_10.csv",
+      "fingerprint": "5412_1751692549903894500",
+      "processed_at": "2025-07-05T07:40:36.145446",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_2.csv",
+      "fingerprint": "5452_1751692684912471700",
+      "processed_at": "2025-07-05T07:40:37.154617",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_3.csv",
+      "fingerprint": "5385_1751692421561350900",
+      "processed_at": "2025-07-05T07:40:38.185181",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_4.csv",
+      "fingerprint": "5422_1751692485297169400",
+      "processed_at": "2025-07-05T07:40:39.108396",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_5.csv",
+      "fingerprint": "5402_1751692360052836700",
+      "processed_at": "2025-07-05T07:40:40.065861",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_11.csv",
+      "fingerprint": "5440_1751694291513094200",
+      "processed_at": "2025-07-05T07:47:07.377716",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_13.csv",
+      "fingerprint": "5506_1751694135514025600",
+      "processed_at": "2025-07-05T07:48:39.680002",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_errordata.csv",
+      "fingerprint": "1142_1751694565651035100",
+      "processed_at": "2025-07-05T07:50:41.512164",
+      "successful_records": 4
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751695943178544300",
+      "processed_at": "2025-07-05T08:13:01.324212",
+      "successful_records": 553
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751696030494483000",
+      "processed_at": "2025-07-05T08:15:44.318902",
+      "successful_records": 1997
+    },
+    {
+      "filename": "music_data_14.csv",
+      "fingerprint": "5481_1751698246553735900",
+      "processed_at": "2025-07-05T08:57:51.398133",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_13.csv",
+      "fingerprint": "5439_1751698621442518800",
+      "processed_at": "2025-07-05T08:57:52.446068",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_16.csv",
+      "fingerprint": "5470_1751698439074251000",
+      "processed_at": "2025-07-05T08:57:53.396640",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_2.csv",
+      "fingerprint": "5410_1751698501416198100",
+      "processed_at": "2025-07-05T08:57:54.333959",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_6.csv",
+      "fingerprint": "5443_1751698562488710200",
+      "processed_at": "2025-07-05T08:57:55.283313",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_19.csv",
+      "fingerprint": "5406_1751698705981455500",
+      "processed_at": "2025-07-05T08:59:10.267335",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_7.csv",
+      "fingerprint": "5413_1751698778909956400",
+      "processed_at": "2025-07-05T09:00:56.448362",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_20.csv",
+      "fingerprint": "5435_1751698844709831000",
+      "processed_at": "2025-07-05T09:03:10.575215",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_3.csv",
+      "fingerprint": "5419_1751698910029384900",
+      "processed_at": "2025-07-05T09:03:11.563343",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_11.csv",
+      "fingerprint": "5401_1751699051724923900",
+      "processed_at": "2025-07-05T09:04:43.803141",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_18.csv",
+      "fingerprint": "5398_1751698983962521700",
+      "processed_at": "2025-07-05T09:04:44.815264",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_5.csv",
+      "fingerprint": "5453_1751699133606229000",
+      "processed_at": "2025-07-05T09:07:01.520664",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_1.csv",
+      "fingerprint": "5463_1751699280825609200",
+      "processed_at": "2025-07-05T09:08:34.081108",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_15.csv",
+      "fingerprint": "5441_1751699208638210200",
+      "processed_at": "2025-07-05T09:08:35.281178",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_10.csv",
+      "fingerprint": "5428_1751699362129224300",
+      "processed_at": "2025-07-05T09:10:51.438642",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_9.csv",
+      "fingerprint": "5423_1751699420069932000",
+      "processed_at": "2025-07-05T09:10:52.741253",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_4.csv",
+      "fingerprint": "5450_1751699498894973400",
+      "processed_at": "2025-07-05T09:13:08.155552",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_8.csv",
+      "fingerprint": "5457_1751698246537212200",
+      "processed_at": "2025-07-05T09:14:39.846031",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_17.csv",
+      "fingerprint": "5436_1751699578314930200",
+      "processed_at": "2025-07-05T09:14:40.914472",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_12.csv",
+      "fingerprint": "5449_1751698246548727400",
+      "processed_at": "2025-07-05T09:16:42.325892",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_22.csv",
+      "fingerprint": "5438_1751701704671021400",
+      "processed_at": "2025-07-05T09:48:58.730096",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_23.csv",
+      "fingerprint": "5452_1751701643260341000",
+      "processed_at": "2025-07-05T09:48:59.872663",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_21.csv",
+      "fingerprint": "5434_1751701782731345900",
+      "processed_at": "2025-07-05T09:51:02.792797",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_24.csv",
+      "fingerprint": "5430_1751701855764174100",
+      "processed_at": "2025-07-05T09:52:16.875983",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_10.csv",
+      "fingerprint": "5425_1751702624577204100",
+      "processed_at": "2025-07-05T10:05:01.373631",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_spotify_semi_errored_data.csv",
+      "fingerprint": "266958_1751702564185279100",
+      "processed_at": "2025-07-05T10:05:46.078374",
+      "successful_records": 1997
+    },
+    {
+      "filename": "music_data_9.csv",
+      "fingerprint": "5455_1751702523089426800",
+      "processed_at": "2025-07-05T10:07:02.124483",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_2.csv",
+      "fingerprint": "5434_1751703107316567700",
+      "processed_at": "2025-07-05T10:13:17.006450",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_7.csv",
+      "fingerprint": "5449_1751703186763170700",
+      "processed_at": "2025-07-05T10:15:23.894918",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_5.csv",
+      "fingerprint": "5401_1751703298984821700",
+      "processed_at": "2025-07-05T10:17:20.844492",
+      "successful_records": 50
+    },
+    {
+      "filename": "music_data_1.csv",
+      "fingerprint": "5451_1751702523070691000",
+      "processed_at": "2025-07-05T10:18:58.830298",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_8.csv",
+      "fingerprint": "5485_1751703588520881400",
+      "processed_at": "2025-07-05T10:21:09.180283",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_3.csv",
+      "fingerprint": "5425_1751703855558915300",
+      "processed_at": "2025-07-05T10:24:51.990746",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_spotify_fully_errored_data.csv",
+      "fingerprint": "73334_1751703939994350200",
+      "processed_at": "2025-07-05T10:27:15.528695",
+      "successful_records": 553
+    },
+    {
+      "filename": "valid_music_data_4.csv",
+      "fingerprint": "5423_1751704105260879800",
+      "processed_at": "2025-07-05T10:28:58.264153",
+      "successful_records": 50
+    },
+    {
+      "filename": "valid_music_data_6.csv",
+      "fingerprint": "5423_1751704017790795600",
+      "processed_at": "2025-07-05T10:28:59.356183",
+      "successful_records": 50
+    }
+  ]
+}

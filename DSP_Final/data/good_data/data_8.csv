@@ -1,0 +1,201 @@
+artist,song,duration_ms,explicit,year,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,genre
+Chad Kroeger,Hero (feat. Josey Scott),200480,False,2003,66,0.427,0.843,4,-4.54,1,0.0364,0.00216,0.0,0.179,0.304,147.387,metal
+Floetry,Say Yes,268373,False,2002,57,0.747,0.398,5,-12.932,0,0.0743,0.211,1.42e-06,0.113,0.428,117.901,"hip hop, pop, R&B"
+Eminem,When I'm Gone,281320,True,2005,68,0.618,0.746,10,-5.476,0,0.352,0.0553,0.0,0.273,0.75,75.272,hip hop
+Baauer,Harlem Shake,196664,False,2013,57,0.452,0.794,0,-5.151,1,0.0483,0.0111,0.00182,0.416,0.282,137.825,Dance/Electronic
+Avril Lavigne,Don't Tell Me,202013,False,2004,58,0.523,0.795,4,-2.92,1,0.0386,0.00462,0.0,0.358,0.484,144.106,pop
+P!nk,Raise Your Glass,202960,True,2010,76,0.7,0.709,7,-5.006,1,0.0838,0.0048,0.0,0.029,0.624,122.019,pop
+Bow Wow,Let Me Hold You (feat. Omarion),248493,False,2005,62,0.815,0.662,6,-8.244,1,0.199,0.0915,0.000409,0.0898,0.611,151.518,"hip hop, pop, R&B"
+Hinder,Better Than Me,223533,False,2019,30,0.451,0.682,2,-5.295,0,0.029,0.205,0.0,0.175,0.254,139.913,"pop, rock, metal"
+Muse,Uprising,304840,False,2009,75,0.602,0.905,2,-4.046,1,0.0775,0.000202,0.064,0.117,0.411,128.019,rock
+P!nk,Don't Let Me Get Me - Radio Edit,210693,False,2001,60,0.624,0.85,0,-4.754,0,0.0756,0.00234,0.0,0.0621,0.615,98.525,pop
+Sam Smith,Money On My Mind,192670,False,2014,62,0.688,0.841,2,-5.217,1,0.179,0.204,0.000295,0.229,0.743,133.912,pop
+Jonas Brothers,Only Human,183000,False,2019,71,0.795,0.496,0,-5.883,1,0.0722,0.108,0.0,0.0645,0.874,94.01,pop
+Usher,Hey Daddy (Daddy's Home),224093,False,2010,60,0.59,0.698,11,-4.262,1,0.0286,0.000176,0.0,0.107,0.352,95.975,"hip hop, pop, R&B"
+Ciara,Love Sex Magic (feat. Justin Timberlake),220426,False,2009,58,0.893,0.666,10,-5.089,0,0.138,0.0206,0.0,0.342,0.874,107.011,"pop, R&B"
+Sean Kingston,Beautiful Girls,225373,False,2007,78,0.762,0.661,1,-6.075,0,0.0687,0.15,0.0,0.256,0.769,130.009,"hip hop, pop, R&B"
+X Ambassadors,Renegades,195200,False,2015,75,0.526,0.862,2,-6.003,1,0.0905,0.0144,0.0597,0.229,0.528,90.052,"hip hop, rock, pop"
+Beyoncé,Halo,261640,False,2008,74,0.508,0.72,11,-5.908,0,0.0628,0.272,0.0,0.0563,0.472,79.983,"pop, R&B"
+Soulja Boy,Crank That (Soulja Boy),221933,False,2007,74,0.736,0.74,0,-2.18,1,0.0786,0.515,0.0,0.0468,0.803,140.141,"hip hop, pop"
+Kesha,TiK ToK,199693,False,2010,80,0.755,0.837,2,-2.718,0,0.142,0.0991,0.0,0.289,0.714,120.028,"pop, Dance/Electronic"
+Britney Spears,If U Seek Amy,216520,False,2008,69,0.717,0.587,4,-7.296,0,0.0339,0.0192,0.0,0.0523,0.544,129.954,pop
+The Saturdays,What About Us,220682,False,2013,61,0.704,0.68,7,-4.751,1,0.0581,0.0059,0.0,0.213,0.689,123.973,"pop, Dance/Electronic"
+Lasgo,Something,220973,False,2001,65,0.643,0.981,7,-6.644,0,0.0439,0.0271,8.93e-05,0.11,0.38,140.01,pop
+Beyoncé,Sweet Dreams,208066,False,2008,48,0.694,0.825,1,-5.986,1,0.111,0.0895,1.86e-05,0.0618,0.788,121.949,"pop, R&B"
+Mariah Carey,Obsessed,242200,False,2009,66,0.742,0.468,10,-5.557,0,0.0625,0.0465,0.0,0.826,0.369,86.443,"pop, R&B"
+Jay Rock,"King's Dead (with Kendrick Lamar, Future & James Blake)",229670,True,2018,71,0.645,0.705,1,-5.008,1,0.299,0.000813,0.0,0.128,0.376,137.133,"hip hop, pop"
+Daniel Bedingfield,Gotta Get Thru This - D'N'D Radio Edit,161240,False,2002,56,0.838,0.764,7,-5.076,0,0.0586,0.0862,0.000122,0.0906,0.924,133.592,pop
+Beyoncé,Single Ladies (Put a Ring on It),193213,False,2008,67,0.426,0.584,1,-5.293,1,0.296,0.0383,0.0,0.188,0.272,193.437,"pop, R&B"
+Lil Wayne,Love Me,255053,True,2013,68,0.669,0.634,11,-6.476,1,0.0327,0.0125,0.0,0.0946,0.496,124.906,"hip hop, pop"
+Dua Lipa,New Rules,212000,False,2017,61,0.763,0.72,9,-5.181,0,0.0691,0.00261,1.11e-05,0.114,0.592,116.01,pop
+Naughty Boy,La La La,220779,False,2013,58,0.754,0.677,6,-4.399,0,0.0316,0.112,0.0,0.111,0.254,124.988,Dance/Electronic
+Bow Wow,Bounce With Me (feat. Xscape) - Edited Album Version,175893,False,2000,36,0.852,0.75,8,-5.153,1,0.168,0.434,0.0,0.265,0.934,72.016,"hip hop, pop, R&B"
+Girls Aloud,Sound Of The Underground,221426,False,2003,58,0.568,0.867,11,-5.861,1,0.0365,0.00344,4.67e-05,0.328,0.88,163.944,"pop, Dance/Electronic"
+Orson,No Tomorrow,167493,False,2006,46,0.656,0.624,3,-4.623,0,0.0691,0.0065,0.0,0.278,0.735,124.082,pop
+Anastacia,I'm Outta Love - Radio Edit,245400,False,1999,64,0.761,0.716,10,-5.8,0,0.056,0.396,0.0,0.0771,0.649,119.41,pop
+Rihanna,Unfaithful,226973,False,2006,70,0.588,0.391,0,-8.607,0,0.0334,0.839,0.0,0.227,0.349,144.069,"hip hop, pop, R&B"
+Finger Eleven,Paralyzer,208106,False,2007,73,0.644,0.939,11,-3.486,0,0.0456,0.157,0.0,0.233,0.861,106.031,"rock, metal"
+Rihanna,Where Have You Been,242680,False,2011,71,0.719,0.847,0,-6.34,0,0.0916,0.00201,0.0204,0.223,0.444,127.963,"hip hop, pop, R&B"
+Brandy,What About Us?,253200,False,2002,43,0.686,0.698,5,-2.942,0,0.223,0.263,0.0,0.39,0.748,93.118,"hip hop, pop, R&B"
+Destiny's Child,Soldier (feat. T.I. & Lil' Wayne),325573,False,2004,63,0.878,0.417,7,-6.799,1,0.361,0.0444,0.0,0.0833,0.904,77.49,"pop, R&B"
+Mariah Carey,We Belong Together,201400,False,2005,69,0.84,0.476,0,-7.918,1,0.0629,0.0264,0.0,0.0865,0.767,139.987,"pop, R&B"
+Clean Bandit,Tears (feat. Louisa Johnson),225914,False,2016,60,0.605,0.77,5,-3.645,0,0.0446,0.0431,0.0,0.159,0.298,130.037,"pop, Dance/Electronic"
+DJ Khaled,No Brainer,260000,True,2018,67,0.552,0.76,0,-4.706,1,0.342,0.0733,0.0,0.0865,0.639,135.702,"hip hop, pop"
+Eminem,Like Toy Soldiers,296880,True,2004,48,0.52,0.768,8,-3.489,0,0.359,0.0193,0.00034,0.104,0.398,79.178,hip hop
+B2K,"Bump, Bump, Bump (feat. P. Diddy)",282773,False,2003,62,0.835,0.68,1,-6.02,0,0.21,0.1,0.0,0.049,0.889,95.508,"hip hop, pop, R&B"
+Paramore,Misery Business,211520,False,2007,72,0.517,0.906,1,-3.677,1,0.0735,0.00272,9.26e-06,0.113,0.731,172.977,"pop, rock"
+Robbie Williams,Somethin' Stupid,170493,False,2001,64,0.654,0.515,0,-12.185,1,0.0261,0.429,5.62e-06,0.174,0.677,106.191,"pop, rock"
+Arctic Monkeys,When The Sun Goes Down,202133,True,2006,72,0.348,0.875,11,-4.758,0,0.199,0.0341,0.0,0.117,0.407,169.152,rock
+Axwell /\ Ingrosso,More Than You Know,203000,False,2017,0,0.645,0.741,5,-4.989,0,0.0339,0.0323,0.0,0.29,0.534,123.07,"pop, Dance/Electronic"
+Coldplay,Adventure of a Lifetime,263786,False,2015,76,0.638,0.924,7,-3.887,1,0.036,0.00205,0.000175,0.149,0.53,111.995,"rock, pop"
+Cheat Codes,Sex,228361,False,2016,0,0.51,0.692,0,-5.825,1,0.171,0.00451,0.0,0.138,0.209,102.42,"pop, Dance/Electronic"
+Birdy,Let It All Go,280757,False,2015,68,0.383,0.43,10,-8.644,1,0.0302,0.817,1.04e-06,0.0869,0.174,107.005,pop
+iann dior,emotions,131213,False,2019,72,0.63,0.63,9,-6.211,1,0.0395,0.0131,0.0,0.142,0.163,80.512,"hip hop, pop"
+Junior Senior,Move Your Feet,181826,False,2002,67,0.747,0.904,9,-2.623,1,0.0803,0.046,0.106,0.203,0.846,118.877,pop
+Drake,Jumpman,205879,True,2015,0,0.853,0.558,1,-7.448,1,0.202,0.0462,0.0,0.341,0.654,142.079,"hip hop, pop, R&B"
+The Pussycat Dolls,Beep,229360,False,2005,57,0.938,0.735,7,-6.382,1,0.0434,0.00952,0.0,0.0998,0.55,103.7,"pop, R&B"
+Ruff Endz,No More,242560,False,2000,52,0.839,0.641,10,-5.669,0,0.0858,0.0324,4.56e-06,0.0602,0.927,97.004,R&B
+Lady Gaga,Paparazzi,208306,False,2008,70,0.762,0.692,5,-3.973,0,0.0438,0.113,0.0,0.094,0.397,114.906,pop
+Soulja Boy,Kiss Me Thru The Phone,193386,True,2008,76,0.758,0.712,7,-3.781,1,0.112,0.0185,0.0,0.0677,0.795,149.998,"hip hop, pop"
+Beyoncé,Irreplaceable,227853,False,2007,70,0.447,0.694,7,-4.637,0,0.382,0.0293,5.46e-06,0.167,0.509,175.868,"pop, R&B"
+Bad Bunny,Callaita,250533,True,2019,81,0.61,0.624,2,-4.773,1,0.309,0.6,2.12e-06,0.243,0.244,176.169,latin
+DJ Snake,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)",212500,True,2018,76,0.842,0.801,8,-4.167,0,0.228,0.157,4.82e-06,0.0642,0.617,95.881,"hip hop, pop, Dance/Electronic"
+Destiny's Child,"Independent Women, Pt. 1",221133,False,2001,65,0.73,0.602,6,-3.782,0,0.206,0.362,3.69e-06,0.169,0.927,97.954,"pop, R&B"
+Jonas Blue,Fast Car,212424,False,2015,1,0.459,0.587,9,-6.983,1,0.0785,0.453,0.0,0.307,0.581,113.901,"pop, Dance/Electronic"
+E-40,U and Dat (feat. T. Pain & Kandi Girl),202720,True,2006,63,0.858,0.484,6,-7.448,0,0.277,0.0241,1.8e-06,0.123,0.329,99.992,"hip hop, pop"
+Metro Station,Shake It,179946,False,2007,67,0.618,0.955,4,-3.836,1,0.0798,0.00221,3.09e-06,0.486,0.79,150.034,"pop, rock"
+Lil Wayne,Got Money,244626,True,2008,58,0.694,0.661,7,-4.847,1,0.118,0.00188,0.0,0.676,0.702,82.48,"hip hop, pop"
+Rihanna,What's My Name?,263173,False,2010,66,0.692,0.786,2,-2.959,1,0.069,0.23,0.0,0.0797,0.583,100.025,"hip hop, pop, R&B"
+Demi Lovato,Heart Attack,210840,False,2013,79,0.504,0.785,8,-4.802,1,0.104,0.0738,0.0,0.239,0.502,173.968,pop
+Kesha,Blow,219973,False,2010,69,0.753,0.729,11,-3.862,0,0.0392,0.00334,5.66e-05,0.073,0.812,120.013,"pop, Dance/Electronic"
+Tyga,Taste (feat. Offset),232959,True,2018,73,0.884,0.559,0,-7.442,1,0.12,0.0236,0.0,0.101,0.342,97.994,"hip hop, pop"
+Carrie Underwood,Blown Away,240133,False,2012,63,0.531,0.843,9,-2.569,0,0.0429,0.0909,0.0,0.0283,0.392,136.991,"pop, country"
+BLACKPINK,Kill This Love,189052,False,2019,1,0.738,0.861,2,-4.141,1,0.237,0.318,0.00182,0.325,0.58,131.98,pop
+Sean Paul,Gimme the Light,228000,True,2002,59,0.778,0.761,2,-5.529,1,0.0525,0.141,4.61e-05,0.0441,0.923,107.288,"hip hop, pop"
+Akon,I Wanna Love You,247066,True,2006,53,0.865,0.45,0,-9.387,1,0.0417,0.0359,1.28e-06,0.308,0.352,99.989,pop
+Post Malone,Better Now,231266,True,2018,80,0.68,0.578,10,-5.804,1,0.04,0.331,0.0,0.135,0.341,145.038,hip hop
+Monica,So Gone,242773,False,2003,64,0.618,0.552,8,-6.863,1,0.0981,0.176,0.0,0.252,0.586,81.975,"pop, R&B"
+Iggy Azalea,Fancy,199938,True,2014,69,0.912,0.716,10,-4.141,0,0.0697,0.0904,0.0,0.0491,0.377,94.981,"hip hop, pop"
+Plies,Hypnotized (feat. Akon),188493,True,2007,66,0.84,0.571,10,-7.421,1,0.0797,0.16,0.0,0.406,0.617,116.59,"hip hop, pop, R&B"
+Neon Trees,Animal,212306,False,2010,64,0.482,0.829,5,-5.576,1,0.0437,0.00034,0.0,0.378,0.739,147.99,"rock, pop"
+Juice WRLD,Lucid Dreams,239835,True,2018,84,0.511,0.566,6,-7.23,0,0.2,0.349,0.0,0.34,0.218,83.903,hip hop
+Wayne Wonder,No Letting Go,202013,False,2003,63,0.496,0.819,5,-5.656,0,0.0444,0.0479,0.000215,0.177,0.317,100.215,"hip hop, R&B"
+G.R.L.,Ugly Heart,198306,False,2014,64,0.65,0.786,9,-5.488,1,0.0463,0.019,0.0,0.323,0.446,124.96,pop
+Busta Rhymes,Touch It,214960,True,2006,61,0.658,0.551,1,-6.62,1,0.37,0.0043,0.000108,0.197,0.442,138.335,"hip hop, pop"
+Special D.,Come With Me - Radio Edit,185133,False,2004,61,0.739,0.999,7,-5.077,1,0.0803,0.13,0.00224,0.28,0.501,139.982,pop
+Dennis Lloyd,Nevermind,156600,False,2017,74,0.6,0.688,5,-8.339,0,0.201,0.159,1.29e-05,0.409,0.0793,99.977,pop
+James Morrison,Broken Strings,250453,False,2008,70,0.57,0.717,1,-4.914,1,0.029,0.00967,0.0,0.0833,0.321,111.91,"pop, R&B"
+Nick Jonas,Close,234213,False,2016,69,0.654,0.623,6,-5.273,0,0.082,0.253,0.0,0.144,0.401,123.996,pop
+Alicia Keys,No One,253813,False,2007,77,0.644,0.549,1,-5.415,0,0.0285,0.0209,8.85e-06,0.134,0.167,90.04,"pop, R&B"
+Lady Gaga,Born This Way,260253,False,2011,72,0.587,0.828,11,-5.108,1,0.161,0.00327,0.0,0.331,0.494,123.907,pop
+Nick Lachey,What's Left Of Me,244613,False,2006,37,0.42,0.742,7,-5.665,1,0.0375,0.142,0.0,0.145,0.294,149.965,pop
+John Newman,Love Me Again,239894,False,2013,74,0.495,0.894,2,-4.814,0,0.0441,0.00453,0.000596,0.103,0.213,126.03,set()
+Bruno Mars,Just the Way You Are,220734,False,2010,77,0.635,0.841,5,-5.379,1,0.0422,0.0134,0.0,0.0622,0.424,109.021,pop
+Atomic Kitten,Whole Again,185013,False,2001,66,0.747,0.706,4,-4.653,1,0.0413,0.0844,0.00355,0.174,0.567,94.019,pop
+Demi Lovato,Give Your Heart a Break,205346,False,2011,71,0.651,0.695,6,-3.218,1,0.0487,0.23,0.0,0.144,0.569,123.008,pop
+Jennifer Lopez,Ain't It Funny,246160,False,2001,0,0.707,0.869,5,-4.525,0,0.0481,0.104,0.000121,0.0813,0.621,99.825,"hip hop, pop, R&B"
+112,Peaches & Cream,193093,False,2001,63,0.677,0.52,4,-6.255,0,0.334,0.00277,0.0,0.0532,0.768,203.862,"hip hop, pop, R&B"
+Miguel,Sure Thing,195373,False,2010,78,0.684,0.607,11,-8.127,0,0.1,0.0267,0.000307,0.191,0.498,81.001,"pop, R&B"
+The Pussycat Dolls,Buttons,225560,False,2005,68,0.565,0.817,2,-4.338,1,0.27,0.152,0.0,0.247,0.477,210.851,"pop, R&B"
+Mary J. Blige,Just Fine,242133,False,2007,64,0.923,0.795,11,-3.61,0,0.117,0.0394,0.000565,0.101,0.588,123.021,"pop, R&B"
+P!nk,There You Go,202800,False,2000,55,0.822,0.847,10,-6.729,0,0.0917,0.0854,0.0,0.0452,0.668,107.908,pop
+Kylie Minogue,In Your Eyes,197826,False,2001,62,0.689,0.894,6,-6.342,0,0.0672,0.133,4.72e-05,0.0681,0.709,123.971,"pop, Dance/Electronic"
+Jennifer Lopez,All I Have (feat. LL Cool J),254466,False,2002,60,0.701,0.669,1,-5.265,1,0.107,0.271,0.0,0.158,0.446,83.066,"hip hop, pop, R&B"
+Jason Derulo,Talk Dirty (feat. 2 Chainz),177685,True,2013,56,0.76,0.652,6,-7.321,1,0.232,0.0348,0.0,0.307,0.759,100.315,"hip hop, pop"
+Ed Sheeran,Take Me Back to London (feat. Stormzy),189733,True,2019,66,0.885,0.762,8,-5.513,0,0.216,0.219,0.0,0.162,0.605,138.058,pop
+Rascal Flatts,Life is a Highway,276773,False,2006,0,0.561,0.936,5,-5.409,1,0.0613,0.00185,0.0,0.102,0.594,103.055,country
+Pendulum,Propane Nightmares,313346,False,2008,57,0.356,0.966,7,-4.13,0,0.0825,0.000262,0.148,0.192,0.215,173.992,Dance/Electronic
+Lewis Capaldi,Someone You Loved,182160,False,2019,84,0.501,0.405,1,-5.679,1,0.0319,0.751,0.0,0.105,0.446,109.891,pop
+Kesha,Blah Blah Blah (feat. 3OH!3),172053,True,2010,61,0.752,0.836,10,-3.173,1,0.115,0.0843,0.000425,0.424,0.519,120.003,"pop, Dance/Electronic"
+Limp Bizkit,Behind Blue Eyes,269973,False,2003,70,0.595,0.489,7,-6.66,1,0.0271,0.497,0.0,0.119,0.0902,120.315,metal
+Pitbull,Time of Our Lives,229360,True,2014,80,0.721,0.802,1,-5.797,1,0.0583,0.0921,0.0,0.694,0.724,124.022,"hip hop, pop, latin"
+The Chainsmokers,Roses,226738,False,2015,73,0.713,0.802,4,-7.055,1,0.0561,0.0435,0.00377,0.309,0.343,100.001,"pop, Dance/Electronic"
+MK,17,196489,False,2017,65,0.703,0.832,0,-7.202,0,0.0689,0.00149,0.127,0.0696,0.667,122.029,"pop, Dance/Electronic"
+Marilyn Manson,Tainted Love,200426,False,2003,60,0.622,0.876,8,-7.779,1,0.0728,0.00107,1.83e-06,0.292,0.537,142.017,"rock, metal"
+Miley Cyrus,We Can't Stop,231240,False,2013,78,0.613,0.622,1,-5.794,0,0.0334,0.00882,0.0,0.37,0.484,80.003,pop
+Sisqo,Thong Song,253733,True,1999,69,0.706,0.888,2,-6.959,1,0.0654,0.119,9.64e-05,0.07,0.714,121.549,"hip hop, pop, R&B"
+Taio Cruz,Dynamite,202613,False,2010,80,0.751,0.783,4,-3.724,1,0.0859,0.00379,0.0,0.036,0.816,119.975,"hip hop, pop"
+Alicia Keys,A Woman's Worth,303333,False,2001,52,0.652,0.41,4,-8.323,0,0.158,0.333,0.0,0.064,0.495,75.09,"pop, R&B"
+Ariana Grande,no tears left to cry,205920,False,2018,77,0.699,0.713,9,-5.507,0,0.0594,0.04,3.11e-06,0.294,0.354,121.993,pop
+Wiley,Boasty (feat. Idris Elba),177185,True,2019,64,0.887,0.765,2,-5.207,1,0.0669,0.00915,0.000872,0.0907,0.456,102.958,"hip hop, Dance/Electronic"
+Justin Bieber,Sorry,200786,False,2015,80,0.654,0.76,0,-3.669,0,0.045,0.0797,0.0,0.299,0.41,99.945,pop
+Tory Lanez,Say It,237786,True,2016,73,0.546,0.529,11,-10.511,0,0.0583,0.0862,6.5e-06,0.124,0.247,107.331,"hip hop, pop, R&B"
+Arctic Monkeys,Brianstorm,172866,False,2007,67,0.42,0.974,1,-4.706,1,0.191,8.15e-05,0.00155,0.0871,0.463,165.182,rock
+Camila Cabello,Liar,207038,False,2019,65,0.74,0.498,11,-6.684,0,0.0456,0.0169,0.00282,0.319,0.652,98.016,pop
+DJ Fresh,Gold Dust - Radio Edit,192446,False,2010,63,0.451,0.948,0,-0.74,1,0.147,0.255,0.0,0.392,0.295,176.985,"pop, Dance/Electronic"
+Ed Sheeran,Thinking out Loud,281560,False,2014,81,0.781,0.445,2,-6.061,1,0.0295,0.474,0.0,0.184,0.591,78.998,pop
+Taylor Swift,You Belong With Me,231146,False,2008,55,0.687,0.771,6,-4.424,1,0.0384,0.164,2.46e-05,0.112,0.445,129.964,pop
+Atomic Kitten,The Tide Is High - Radio Mix,206093,False,2002,65,0.783,0.649,7,-4.127,1,0.0322,0.0209,0.00482,0.067,0.665,103.997,pop
+Childish Gambino,3005,235662,True,2013,0,0.681,0.463,6,-6.542,0,0.289,0.128,0.0,0.0769,0.661,82.92,hip hop
+AlunaGeorge,I'm In Control,209425,False,2016,0,0.734,0.847,11,-3.713,0,0.0346,0.355,0.000144,0.154,0.673,104.013,"pop, Dance/Electronic"
+XXXTENTACION,SAD!,166605,True,2018,82,0.74,0.613,8,-4.88,1,0.145,0.258,0.00372,0.123,0.473,75.023,hip hop
+Plain White T's,Hey There Delilah,232533,False,2005,78,0.656,0.291,2,-10.572,1,0.0293,0.872,0.0,0.114,0.298,103.971,pop
+Kevin Rudolf,Let It Rock,231173,True,2008,66,0.607,0.783,7,-4.41,1,0.0397,0.000683,0.0,0.0678,0.434,113.172,"hip hop, pop"
+Blake Shelton,Honey Bee,210720,False,2011,50,0.481,0.849,4,-5.131,1,0.0385,0.00167,1.49e-06,0.121,0.723,205.57,country
+David Guetta,When Love Takes Over (feat. Kelly Rowland),191000,False,2010,69,0.675,0.862,11,-4.614,1,0.0253,0.0165,0.000427,0.169,0.498,129.967,"hip hop, pop, Dance/Electronic"
+Lil' Flip,Sunshine (feat. Lea),225173,True,2004,42,0.814,0.387,0,-9.867,1,0.0946,0.0248,0.0,0.131,0.792,93.961,"hip hop, pop"
+Ozuna,Vaina Loca,176133,False,2018,72,0.754,0.805,6,-4.249,1,0.0752,0.315,0.0,0.203,0.555,93.982,latin
+Gigi D'Agostino,L'Amour Toujours,238759,False,2011,1,0.617,0.728,7,-7.932,1,0.0292,0.0328,0.0482,0.36,0.808,139.066,pop
+Nelly Furtado,Say It Right,223080,False,2006,81,0.872,0.872,1,-6.328,1,0.139,0.0476,0.00112,0.0543,0.809,116.948,"hip hop, pop, latin"
+Lykke Li,I Follow Rivers - The Magician Remix,281106,False,2011,51,0.786,0.709,9,-5.737,0,0.0395,0.0192,0.00118,0.0845,0.285,122.019,"pop, Dance/Electronic"
+Mustard,Pure Water (with Migos),192470,True,2019,75,0.682,0.559,0,-5.545,1,0.127,0.174,0.0,0.344,0.137,202.015,"hip hop, pop"
+Linkin Park,What I've Done,205613,False,2007,77,0.623,0.93,5,-5.285,1,0.0324,0.0141,1.64e-06,0.138,0.287,120.119,"rock, metal"
+Drake,Started From the Bottom,174120,True,2013,65,0.794,0.523,8,-7.829,1,0.161,0.0331,0.0,0.156,0.56,86.307,"hip hop, pop, R&B"
+Khia,"My Neck, My Back (Lick It)",222560,True,2015,59,0.859,0.625,9,-4.234,0,0.13,0.0296,0.0,0.0537,0.71,102.072,"pop, R&B"
+Juice WRLD,Robbery,240050,True,2019,53,0.685,0.692,2,-5.122,1,0.0457,0.328,0.0,0.153,0.578,159.966,hip hop
+Owl City,Fireflies,228346,False,2009,78,0.512,0.662,3,-6.797,1,0.0439,0.0275,0.0,0.118,0.472,180.114,"rock, pop"
+Avril Lavigne,When You're Gone,240493,False,2007,68,0.457,0.719,4,-3.921,0,0.0323,0.191,0.0,0.228,0.168,142.034,pop
+Franz Ferdinand,Do You Want To,215000,False,2005,61,0.412,0.944,0,-2.896,1,0.0448,0.0724,0.000493,0.801,0.79,123.091,rock
+Limp Bizkit,Take A Look Around,321040,False,2000,72,0.425,0.852,11,-5.607,1,0.046,0.0175,0.306,0.0935,0.512,101.968,metal
+Alicia Keys,Empire State of Mind (Part II) Broken Down,216480,False,2009,71,0.484,0.368,6,-7.784,1,0.0341,0.74,3.82e-05,0.118,0.142,92.923,"pop, R&B"
+Thirty Seconds To Mars,The Kill,231533,False,2005,74,0.179,0.912,4,-3.881,0,0.0791,0.0014,0.000294,0.582,0.289,182.99,rock
+Beyoncé,Check On It (feat. Slim Thug),211186,False,2006,45,0.7,0.887,7,-3.887,1,0.218,0.0805,0.0,0.376,0.883,166.104,"pop, R&B"
+Silentó,Watch Me (Whip / Nae Nae),185131,False,2015,0,0.819,0.768,8,-8.522,1,0.134,0.234,0.0,0.334,0.964,139.982,hip hop
+Nicki Minaj,Starships,210626,True,2012,75,0.747,0.716,11,-2.457,0,0.075,0.135,0.0,0.251,0.751,125.008,"hip hop, pop"
+Beyoncé,Best Thing I Never Had,253746,False,2011,69,0.545,0.649,6,-4.062,1,0.0324,0.143,1.57e-05,0.0894,0.297,99.099,"pop, R&B"
+Mariah Carey,Loverboy,229173,False,2001,42,0.721,0.79,1,-4.125,1,0.124,0.183,0.0,0.1,0.821,103.141,"pop, R&B"
+Daniel Bedingfield,If You're Not The One,257026,False,2002,58,0.688,0.538,10,-7.608,1,0.0292,0.504,0.0,0.111,0.27,119.998,pop
+6ix9ine,GUMMO,157643,True,2018,63,0.66,0.775,2,-4.926,1,0.172,0.0553,0.0,0.129,0.635,157.036,hip hop
+LMFAO,Sexy And I Know It,199480,False,2011,67,0.707,0.861,7,-4.225,1,0.316,0.1,0.0,0.191,0.795,130.021,"hip hop, pop, Dance/Electronic"
+Rita Ora,R.I.P. (feat. Tinie Tempah),228026,False,2012,46,0.603,0.831,11,-3.443,0,0.0479,0.027,0.0,0.652,0.358,72.022,"hip hop, pop, Dance/Electronic"
+Faith Hill,Breathe,250546,False,1999,66,0.529,0.496,7,-9.007,1,0.029,0.173,0.0,0.251,0.278,136.859,"pop, country"
+Jennifer Lopez,I'm Gonna Be Alright (feat. Nas),172240,False,2002,53,0.718,0.69,10,-4.382,0,0.265,0.106,0.0,0.271,0.774,93.401,"hip hop, pop, R&B"
+DJ Sammy,Heaven,233600,False,2002,63,0.571,0.953,8,-5.601,1,0.0548,0.0011,0.000606,0.226,0.601,137.965,pop
+ZAYN,"I Don’t Wanna Live Forever (Fifty Shades Darker) - From ""Fifty Shades Darker (Original Motion Picture Soundtrack)""",245200,False,2016,0,0.735,0.451,0,-8.374,1,0.0585,0.0631,1.3e-05,0.325,0.0862,117.973,"pop, Dance/Electronic"
+Ne-Yo,So Sick,207186,False,2006,75,0.452,0.574,6,-8.336,1,0.31,0.246,0.0,0.189,0.58,92.791,"pop, R&B"
+Illy,Papercuts (feat. Vera Blue),255889,False,2016,51,0.369,0.618,6,-6.304,0,0.249,0.161,0.0,0.257,0.467,191.863,"hip hop, pop, Dance/Electronic"
+Cali Swag District,Teach Me How to Dougie,237480,True,2011,66,0.846,0.438,11,-4.981,1,0.141,0.2,9.43e-05,0.0939,0.512,85.013,"hip hop, pop"
+Mumford & Sons,Little Lion Man,245173,True,2009,68,0.517,0.492,5,-8.05,1,0.0272,0.0275,3.19e-05,0.0873,0.455,138.585,"Folk/Acoustic, rock, pop"
+Chris Brown,New Flame (feat. Usher & Rick Ross),244226,True,2014,67,0.702,0.629,1,-4.292,1,0.041,0.0506,0.0,0.0963,0.446,141.967,"hip hop, pop, R&B"
+The Goo Goo Dolls,Here Is Gone,238173,False,2002,56,0.338,0.685,1,-5.178,1,0.0322,0.00052,0.000512,0.109,0.221,102.192,"pop, rock"
+Shawn Mendes,Stitches,206880,False,2015,78,0.746,0.754,1,-6.684,1,0.0676,0.0152,0.0,0.0486,0.746,149.882,pop
+Maroon 5,Girls Like You (feat. Cardi B) - Cardi B Version,235545,True,2018,73,0.851,0.541,0,-6.825,1,0.0505,0.568,0.0,0.13,0.448,124.959,pop
+Coldplay,Hymn for the Weekend,258266,False,2015,82,0.491,0.693,0,-6.487,0,0.0377,0.211,6.92e-06,0.325,0.412,90.027,"rock, pop"
+50 Cent,Just A Lil Bit,237706,True,2005,76,0.489,0.692,1,-6.672,1,0.41,0.0322,0.00608,0.315,0.527,96.946,"hip hop, pop"
+MKTO,Classic,175426,False,2012,82,0.72,0.791,1,-4.689,1,0.124,0.0384,0.0,0.157,0.756,102.071,"hip hop, pop"
+Franz Ferdinand,Take Me Out,237026,False,2004,77,0.277,0.663,4,-8.821,0,0.0377,0.000409,0.00051,0.136,0.527,104.561,rock
+Bruno Mars,It Will Rain,257720,False,2011,74,0.576,0.835,2,-6.826,1,0.0486,0.337,0.0,0.082,0.476,150.017,pop
+The Supermen Lovers,Starlight - Radio Edit,234400,False,2001,61,0.739,0.679,0,-5.079,1,0.0373,0.000424,0.0187,0.389,0.786,127.487,Dance/Electronic
+Edward Maya,Stereo Love - Radio Edit,184573,False,2010,66,0.799,0.783,1,-3.896,0,0.0322,0.0346,0.0186,0.0757,0.586,127.041,pop
+Rae Sremmurd,Black Beatles,291893,True,2016,75,0.794,0.632,0,-6.163,1,0.0649,0.142,0.0,0.128,0.355,145.926,"hip hop, pop"
+Emma Bunton,What Took You So Long?,241000,False,2001,54,0.668,0.772,9,-5.4,0,0.0307,0.123,0.0,0.341,0.911,118.011,pop
+Grouplove,Tongue Tied,218013,False,2011,79,0.56,0.936,3,-5.835,1,0.0439,0.00847,0.0,0.161,0.371,112.96,"pop, rock, Folk/Acoustic"
+Carrie Underwood,Before He Cheats,199946,False,2005,76,0.519,0.749,6,-3.318,0,0.0405,0.271,0.0,0.119,0.29,147.905,"pop, country"
+Calvin Harris,Blame (feat. John Newman),212960,False,2014,75,0.414,0.857,0,-4.078,0,0.0808,0.0287,0.00574,0.343,0.348,128.024,"hip hop, pop, Dance/Electronic"
+No Doubt,It's My Life,226053,False,2003,60,0.612,0.735,8,-5.074,0,0.0282,0.00202,0.00118,0.328,0.783,126.326,"rock, pop"
+INNA,Hot - Play & Win Radio Version,217036,False,2010,42,0.817,0.939,7,-6.079,0,0.28,0.0798,0.441,0.431,0.599,128.0,pop
+Drake,Jumpman,205879,True,2015,72,0.852,0.553,1,-7.286,1,0.187,0.0559,0.0,0.332,0.656,142.079,"hip hop, pop, R&B"
+Lorde,Team,193058,False,2013,0,0.691,0.582,6,-7.444,1,0.0939,0.162,0.0,0.247,0.427,100.05,"pop, Dance/Electronic"
+Jay Sean,Down,212106,False,2009,3,0.657,0.695,2,-4.493,1,0.0321,0.0108,0.0,0.0822,0.683,65.997,"hip hop, pop, R&B"
+Sigala,Easy Love,229813,False,2018,66,0.68,0.942,9,-4.208,1,0.0631,0.175,0.0013,0.117,0.647,123.976,"pop, Dance/Electronic"
+Delta Goodrem,Born to Try,251280,False,2003,54,0.542,0.589,8,-6.813,1,0.0284,0.246,0.0,0.188,0.336,133.838,pop
+Travis,Sing,228800,False,2001,68,0.33,0.905,4,-5.047,1,0.0497,0.000233,8.14e-06,0.0712,0.259,163.142,"rock, pop"
+Gorillaz,Feel Good Inc.,222640,False,2005,82,0.818,0.705,6,-6.679,1,0.177,0.00836,0.00233,0.613,0.772,138.559,hip hop
+Lil Nas X,Old Town Road,113000,False,2019,76,0.907,0.53,1,-6.112,1,0.127,0.0578,2.23e-06,0.101,0.507,135.998,"hip hop, pop"
+Trey Songz,Say Aah (feat. Fabolous),207546,False,2009,54,0.724,0.87,1,-3.614,0,0.113,0.00453,0.0,0.833,0.81,93.01,"hip hop, pop, R&B"
+ScHoolboy Q,Hands on the Wheel (feat. Asap Rocky),197131,True,2012,61,0.646,0.784,1,-7.471,0,0.108,0.0166,0.0,0.0721,0.179,127.839,"hip hop, pop"
+Eminem,Mockingbird,250760,True,2004,77,0.637,0.678,0,-3.798,1,0.266,0.209,0.0,0.156,0.254,84.039,hip hop
+Ariana Grande,Into You,244453,False,2016,3,0.623,0.734,9,-5.948,1,0.107,0.0162,1.75e-06,0.145,0.37,107.853,pop
+Mýa,Case Of The Ex (Whatcha Gonna Do),236906,False,2000,59,0.772,0.688,1,-4.715,0,0.0405,0.0548,9.79e-05,0.0725,0.348,98.0,"pop, R&B"
+Disclosure,Latch,255631,False,2013,74,0.503,0.727,1,-5.456,1,0.167,0.0159,9.45e-05,0.0895,0.521,121.985,"pop, Dance/Electronic"
+Flo Rida,I Cry,223800,False,2012,60,0.693,0.822,4,-5.441,0,0.0439,0.00616,1.79e-06,0.315,0.763,126.035,"hip hop, pop"
